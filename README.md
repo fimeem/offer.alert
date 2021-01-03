@@ -1,0 +1,2 @@
+# Offer Alert
+The android application project is named “Offer Alert”. In this apps, two type of registration is possible, “User” and “Admin”. Admin can create an account and must state the type of business “Food”, “Store” or “Travel”. And they need to provide offer or discount accordingly. They also need to specify the validity of the offer. User can register and log into the apps to find offer/discount of “Food”, “Store” or “Travel” which still has validity left.
