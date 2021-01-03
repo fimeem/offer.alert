@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/offer_logo"
+        />
+
+    <TextView
+        android:id="@+id/text01"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="66dp"
+        android:text="@string/T1"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDred"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+
+        />
+
+    <Button
+        android:id="@+id/main_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:text="@string/B_login"
+        android:textAllCaps="false"
+        android:textColor="@color/colorYellow"
+        android:textSize="25sp"
+        android:onClick="view"/>
+
+    <Button
+        android:id="@+id/main_join_now_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="153dp"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:text="@string/B_join"
+        android:textAllCaps="false"
+        android:textColor="@color/colorDred"
+        android:textSize="25sp"
+        android:onClick="view2"/>
+
+    <TextView
+        android:id="@+id/text02"
+        android:layout_width="243dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/main_join_now_button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="651dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="13dp"
+        android:text="@string/T_haveAccount"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>

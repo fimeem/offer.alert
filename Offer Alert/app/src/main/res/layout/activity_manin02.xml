@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow"
+    tools:context=".ManinActivity02">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/offer_logo"
+        />
+
+    <TextView
+        android:id="@+id/text01"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="66dp"
+        android:text="@string/T1"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDred"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+
+        />
+
+    <TextView
+        android:id="@+id/text02"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text01"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="62dp"
+        android:text="Resister as-"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDred"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+
+        />
+
+
+    <Button
+        android:id="@+id/reg_as_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text02"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:text="User"
+        android:textAllCaps="false"
+        android:textColor="@color/colorYellow"
+        android:textSize="25sp"
+        android:onClick="view3"/>
+
+    <Button
+        android:id="@+id/reg_as_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_as_user"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:text="Admin"
+        android:textAllCaps="false"
+        android:textColor="@color/colorYellow"
+        android:textSize="25sp"
+        android:onClick="view04"/>
+
+</RelativeLayout>
